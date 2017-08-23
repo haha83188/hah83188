@@ -1,0 +1,47 @@
+BaseUrl= "http://example.com/"
+LanguageCode= "fr-FR" # TODO change this into ko-KR
+Title= "블로그 멋있다"
+paginate = 5
+DisqusShortname = "지혜"
+Copyright = "All rights reserved - 2017"
+canonifyurls = true
+
+[params]
+  description = "지혜의 블로그"
+  metadescription = "지혜의 알콩달콩 블로그입니다. 지혜가 나중에 수정해주겠져~ 주님께 영광~"
+  cover = "images/cover.jpg"
+  author = "지혜"
+  authorlocation = "대한민국 서울"
+  authorbio= "예술강사, 연극인"
+  logo = "images/logo.jpg"
+  googleAnalyticsUserID = "UA-73406060-1"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  # RSSLink = "http://feeds.feedburner.com/..."
+  # githubName = "vjeantet"
+  # twitterName = "vjeantet"
+  facebookName = ""
+  # linkedinName = ""
+  instagramName = "haha8318"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = true
+
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
+
+  [params.social]
+    twitter = "your_twitter"
+
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post"
+
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about"
